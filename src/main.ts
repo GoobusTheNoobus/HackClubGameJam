@@ -1,7 +1,9 @@
 function main() {
-  const canvas = document.getElementById('game-canvas') as HTMLCanvasElement;
+  const canvas = document.getElementById('game-canvas');
 
-  if (canvas === null) {
+  // If for some strange reason #game-canvas doesn't exist, throw error so we can
+  // debug easier.
+  if (!(canvas instanceof HTMLCanvasElement)) {
     throw new Error("Canvas not found!");
   }
 
@@ -11,3 +13,5 @@ function main() {
     throw new Error("Failed to fetch canvas context");
   }
 }
+
+main();
