@@ -6,3 +6,4 @@ game jam held by the LHSS Hack Club.
 
 ## Authors
 * GoobusTheNoobus (David H)
+* mr-chen-rui
