@@ -5,5 +5,5 @@ especially as our project grows.
 ## TODOs
 * Start game creation process
   * [X] Decide language & framework
+  * [X] Start coding!
   * [ ] Discuss lore/style
-  * [ ] Start coding!
