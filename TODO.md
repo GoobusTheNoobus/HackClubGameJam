@@ -4,6 +4,6 @@ especially as our project grows.
 
 ## TODOs
 * Start game creation process
-  * Decide language & framework
-  * Discuss lore/style
-  * Start coding!
+  * [X] Decide language & framework
+  * [ ] Discuss lore/style
+  * [ ] Start coding!
