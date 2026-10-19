@@ -1,4 +1,4 @@
-import type { GameObject } from "./Object";
+import type { GameObject } from "./GameObject";
 
 
 export interface CanvasObject extends GameObject {
