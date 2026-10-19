@@ -7,5 +7,6 @@ especially as our project grows. Use PascalCase for classes and structs, and cam
   * [X] Decide language & framework
   * [X] Start coding!
   * [ ] Discuss lore/style
-  * [ ] Create Entity class
+  * [X] Create Entity class
   * [ ] Create Projectile class
+  * [ ] Make `process` function in `main` call all `Entity`s's process functions and all `CanvasObject`s's `draw` functions
