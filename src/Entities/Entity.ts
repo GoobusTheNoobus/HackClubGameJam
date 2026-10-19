@@ -1,6 +1,6 @@
-import type { CanvasObject } from "../Base Classes/CanvasObject";
+import type { CanvasObject } from "../Core/CanvasObject";
 
-export class Entity implements CanvasObject{
+export class Entity implements CanvasObject {
     public x: number;
     public y: number;
     public maxHealth: number;
