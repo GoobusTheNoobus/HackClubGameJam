@@ -1,4 +1,5 @@
 import { Entity } from './Entity';
+import * as ex from 'excalibur';
 
 export class Player extends Entity {
     public name: string;
