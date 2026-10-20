@@ -1,23 +1,18 @@
-import type { CanvasObject } from "../Core/CanvasObject";
+import * as ex from 'excalibur'
 
-export class Entity implements CanvasObject {
-    public x: number;
-    public y: number;
+export class Entity extends ex.Actor {
     public maxHealth: number;
     public health: number;
 
     constructor(x: number, y: number, maxHealth: number) {
-        this.x = x;
-        this.y = y;
+        
+        super({
+            pos: ex.vec(x, y),
+            width: 64,
+            height: 64
+        });
+
         this.maxHealth = maxHealth;
         this.health = maxHealth;
-    }
-
-    process(delta: number): void { // executed every frame
-        
-    }
-
-    draw(ctx:CanvasRenderingContext2D): void { // draw call
-        
     }
 }
