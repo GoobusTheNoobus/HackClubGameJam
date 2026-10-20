@@ -1,11 +1,12 @@
-body {
-  margin: 0;
-  background: #111111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
-canvas {
-  border: 2px solid #ffffff;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

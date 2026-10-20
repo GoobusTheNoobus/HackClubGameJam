@@ -1,17 +1,10 @@
-function main() {
-  const canvas = document.getElementById('game-canvas');
+import * as ex from 'excalibur';
 
-  // If for some strange reason #game-canvas doesn't exist, throw error so we can
-  // debug easier.
-  if (!(canvas instanceof HTMLCanvasElement)) {
-    throw new Error("Canvas not found!");
-  }
-
-  const ctx = canvas.getContext('2d');
-
-  if (ctx === null) {
-    throw new Error("Failed to fetch canvas context");
-  }
-}
-
-main();
+const game = new ex.Engine({
+  width: 1920,
+  height: 1080,
+  backgroundColor: ex.Color.fromHex('#070007'),
+  displayMode: ex.DisplayMode.FitScreenAndFill,
+  pixelRatio: 2,
+});
+game.start();
